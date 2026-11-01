@@ -42,7 +42,7 @@ body {
 
 .links a:hover {
 
-    color: #F9FAF8;
+    color: #9e9e9e;
 
 }
 
@@ -50,7 +50,7 @@ body {
 
     display: flex;
     flex-direction: row;
-    margin: 50px 10%;
+    padding: 50px 10%;
     justify-content: space-between;
 }
 
@@ -60,6 +60,7 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 10px;
 }
 
 .hero p {
@@ -67,9 +68,11 @@ body {
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
 
-.hero-text {
+.hero-main-content {
     display: flex;
     width: 45%;
     flex-direction: column;
@@ -85,3 +88,25 @@ body {
     align-items: center;
 
 }
+
+.hero-button {
+
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 500;
+    width: 125px;
+    height: 45px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-button:hover {
+
+    background-color: #E5E7EB;
+    color: #3882F6;
+
+}
+
